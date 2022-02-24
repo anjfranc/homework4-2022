@@ -213,7 +213,7 @@ top:0px;
   }
 
   @media screen and (prefers-reduced-motion: reduce){
-    .logo{
+    #logo{
       animation: none;
     }
   
@@ -255,7 +255,7 @@ justify-content: center;
     content: '\1F44D';
   }
 
-.gallery{
-  visibility: hidden;
+  #gallery, .gallery{
+  display: none;
 }
 }
